@@ -1,0 +1,4 @@
+name: ScaleCraft
+version: ${project.version}
+main: top.retarders.scalecraft.ScaleCraft
+description: scaling for cubes
