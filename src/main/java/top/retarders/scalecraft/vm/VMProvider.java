@@ -12,4 +12,6 @@ public interface VMProvider {
 
     void listen(Class<? extends VMProviderEvent> event, Consumer<VMProviderEvent> callback);
 
+    void callEvent(VMProviderEvent event);
+
 }
